@@ -1,10 +1,33 @@
 body{
     background-color: whitesmoke;
+
 }
 
 h1{
 font-family:'Krona One', serif;
 font-size: 4em;
+}
+
+hr{
+    width: 40%;
+    display: inline;
+}
+
+a{
+    padding: 12px;
+}
+
+/*Unvisited link*/
+a:link{
+    font-family:'Krona One', serif;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bolder;
+    background-color: greenyellow;
 }
 
 .top-container{
@@ -15,8 +38,12 @@ font-size: 4em;
 }
 
 .recipes-container{
-    padding-left: 40px;
-    padding-top: 40px;
+    padding: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-top: none;
+
 }
 
 
