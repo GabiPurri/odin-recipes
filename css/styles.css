@@ -1,4 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+
 h1{
 font-family:'Krona One', serif;
 font-size: 4em;
 }
+
+.top-container{
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    padding-left: 40px;
+}
+
+.recipes-container{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+
+
