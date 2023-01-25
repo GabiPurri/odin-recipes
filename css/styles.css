@@ -77,10 +77,11 @@ ol{
 }
 
 .recipe-hero{
-    width: 50%;
+    width: 80%;
 }
 
 .recipe-body{
+    width: 60%;
     padding-left: 5%;
     padding-bottom: 5%;
 }
