@@ -1,11 +1,25 @@
 body{
     background-color: whitesmoke;
-
 }
 
 h1{
-font-family:'Krona One', serif;
-font-size: 4em;
+    font-family:'Krona One', serif;
+    font-size: 4em;
+}
+
+h2{
+    font-family:'Krona One', serif;
+    font-size: 2em;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.2em;
+}
+
+p{
+    font-family:'Krona One', serif;
+    font-size: 1em;
 }
 
 hr{
@@ -45,14 +59,30 @@ a:hover{
     padding-left: 40px;
 }
 
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 .recipes-container{
     padding: 40px;
     border-style: solid;
     border-color: black;
     border-width: 4px;
     border-top: none;
-
 }
 
+.recipe-hero{
+    width: 50%;
+}
+
+.recipe-body{
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
 
 
